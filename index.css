@@ -1,0 +1,130 @@
+body {
+    direction: rtl;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+#nav-top {
+    display: grid;
+    grid-template-columns: repeat(175, 1fr);
+    grid-template-rows: 80px;
+    align-items: center;
+    place-items: center;
+}
+
+.nav-top {
+    color: black;
+    font-size: 23px;
+}
+
+#send-sms {
+    grid-column: 31/43;
+    grid-row: 1;
+}
+
+#incoming-messages {
+    grid-column: 42/57;
+    grid-row: 1;
+}
+
+#service {
+    grid-column: 56/67;
+    grid-row: 1;
+}
+
+#about-service {
+    grid-column: 66/74;
+    grid-row: 1;
+}
+
+#price {
+    grid-column: 73/80;
+    grid-row: 1;
+}
+
+#blog {
+    grid-column: 79/94;
+    grid-row: 1;
+}
+
+#contact {
+    grid-column: 93/103;
+    grid-row: 1;
+}
+
+#number {
+    grid-column: 117/134;
+    grid-row: 1;
+    font-size: 20px;
+}
+
+#logo {
+    grid-column: 133/147;
+    grid-row: 1;
+}
+
+#logo-img {
+    width: 130px;
+}
+
+#nav-button {
+    background-color: #58616d;
+    display: grid;
+    grid-template-columns: repeat(175, 1fr);
+    grid-template-rows: 47px;
+    align-items: center;
+    place-items: center;
+}
+
+.nav-button {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#groups {
+    grid-column: 31/39;
+    grid-row: 1;
+}
+
+#archive {
+    grid-column: 38/53;
+    grid-row: 1;
+}
+
+#manage-future-messages {
+    grid-column: 52/71;
+    grid-row: 1;
+}
+
+#saved-messages {
+    grid-column: 70/84;
+    grid-row: 1;
+}
+
+#purchase-sms {
+    grid-column: 83/100;
+    grid-row: 1;
+}
+
+#api {
+    grid-column: 99/106;
+    grid-row: 1;
+}
+
+#sms-abroad {
+    grid-column: 105/117;
+    grid-row: 1;
+}
+
+#personal-area {
+    grid-column: 133/139;
+    grid-row: 1;
+}
+
+#logout {
+    grid-column: 138/151;
+    grid-row: 1;
+}
